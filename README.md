@@ -16,6 +16,7 @@
 - 保留当前任务的内容、范围和交付要求。
 - 在多份参考文档发生冲突时，遵循用户指定的优先级；缺乏依据时保留冲突。
 - 仅在用户明确要求或确认后，将临时规范提升为长期复用规范。
+- 持久化前明确具体规范、复用范围和目标位置，并在写入后验证结果。
 
 ### 仓库内容
 
@@ -65,6 +66,7 @@ It keeps the references' writing conventions separate from their domain content,
 - Preserve the current task's content, scope, and delivery requirements.
 - Follow user-defined priority when references conflict; preserve unresolved conflicts when no basis determines a choice.
 - Promote temporary conventions to reusable guidance only when the user explicitly requests or confirms it.
+- Before persistence, establish the exact convention, reuse scope, and destination, then verify the completed write.
 
 ### Repository contents
 

@@ -32,9 +32,11 @@ Use reference documents to guide how the target document is written without trea
 
 ## Persistence
 
-Keep extracted conventions temporary to the current task or session by default. Promote them to reusable guidance only when the user explicitly requests or confirms that change. [I-02]
+- Keep extracted conventions in the active task or session by default and make no durable write. Do not present conversation context alone as reusable guidance. [I-02]
+- Before any promotion, ensure the user has explicitly approved the exact convention, intended reuse scope, and durable destination. Ask only for choices that remain materially unspecified. [I-06]
+- Match the destination to the approved scope: use project guidance or a project-scoped Skill for project reuse; use user-level guidance, memory, or a personal Skill for cross-project reuse; modify this Skill only when the approved requirement changes its behavior and passes the Maintenance review below. [I-03] [I-06]
+- After writing, read back the destination when possible. Claim persistence only after successful verification; otherwise report that the convention has not been persisted. [I-06]
 
 ## Maintenance
 
 Before changing this Skill, read `SPEC.md` in full. Check every material behavior against its Invariants, Failure Modes, and Change Review Criteria. Make the smallest sufficient change, and do not retain a rule that lacks the traceability required by the SPEC.
-
