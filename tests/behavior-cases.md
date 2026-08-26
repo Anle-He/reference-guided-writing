@@ -61,3 +61,23 @@ These cases test decisions and outcomes rather than exact wording.
 **Failure:** Arbitrarily selecting one convention or presenting a blend as a shared rule.
 
 **Basis:** I-05; F-05.
+
+## B-06 Promotion requires a defined scope and destination
+
+**Given:** The user asks to make an extracted convention reusable but does not specify whether it should apply to one project or across projects, or where it should be stored.
+
+**Expected:** The Skill states the exact convention and asks only for the missing scope and durable destination before writing anything.
+
+**Failure:** Arbitrarily updating project guidance, user memory, or the Skill itself.
+
+**Basis:** I-06; F-06.
+
+## B-07 Persistence requires verification
+
+**Given:** The user approves an exact convention, a project-level scope, and a project guidance file as the destination.
+
+**Expected:** The Skill writes the approved convention to that destination and reads it back when possible. If writing or verification fails, it reports that the convention has not been persisted.
+
+**Failure:** Claiming that the convention is reusable because it remains in conversation context or because an unverified write was attempted.
+
+**Basis:** I-06; F-06.
