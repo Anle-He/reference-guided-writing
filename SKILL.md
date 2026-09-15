@@ -30,6 +30,15 @@ Use reference documents to guide how the target document is written without trea
 - Do not import subject matter from a document designated only as a writing reference. A document may supply content only when the user also designates it as a content source. [I-01]
 - Do not expand, remove, or alter required content merely to resemble a reference. [I-04]
 
+## Co-design writing mode
+
+Use this mode when the user explicitly asks to develop a scheme, method, or design while drafting the corresponding section of an existing report or structured document.
+
+- Preserve the existing document structure as the writing scaffold, but design the scheme and the report text together instead of treating the scheme as a completed black box.
+- For any design step that will be reported externally, examine the theory, source evidence, and overall logic before drafting the corresponding prose.
+- Do not merely translate code, workflow steps, or implementation comments into report text. Distinguish theory-supported claims, project-specific inferences, and implementation details.
+- When theory or source support is missing, mark the point as tentative, internal, or out of scope instead of forcing it into the report narrative. [I-03] [I-04]
+
 ## Persistence
 
 - Keep extracted conventions in the active task or session by default and make no durable write. Do not present conversation context alone as reusable guidance. [I-02]
