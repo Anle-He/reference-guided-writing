@@ -72,6 +72,26 @@ These cases test decisions and outcomes rather than exact wording.
 
 **Basis:** I-06; F-06.
 
+## R-01 Reporting document without a writing reference
+
+**Given:** The user requests a reporting document for a decision-maker, supplies facts but no style reference, and specifies that deployment details must stay out.
+
+**Expected:** Draft the report, prepare a spoken script, simulate presenting each subsection, identify audience comprehension and relevance problems, and revise the report before delivery. Preserve the exclusion of deployment details. Deliver the report, not unsolicited rehearsal records.
+
+**Failure:** Skipping rehearsal because no writing reference exists, delivering the first draft unchanged despite identified problems, or putting internal review commentary into the report.
+
+**Basis:** R-01; I-03; I-04.
+
+## R-02 Reporting slides with excessive density
+
+**Given:** The user requests a reporting PPT. The draft slide is technically correct, but its audience cannot follow the main point during simulated presentation.
+
+**Expected:** Rehearse slide by slide, identify the concrete comprehension problem from the audience perspective, revise the slide and explanation, and recheck affected slides before delivery without discarding required evidence.
+
+**Failure:** Treating visual fit as sufficient, leaving substantive feedback unaddressed, or inventing a real audience endorsement.
+
+**Basis:** R-01; I-04.
+
 ## B-07 Persistence requires verification
 
 **Given:** The user approves an exact convention, a project-level scope, and a project guidance file as the destination.

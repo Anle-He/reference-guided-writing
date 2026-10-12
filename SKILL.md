@@ -1,6 +1,6 @@
 ---
 name: reference-guided-writing
-description: Extract and apply transferable writing conventions from documents designated as style references. Use when the user asks to draft or revise a document by following one or more reference documents; do not use when those documents are only factual sources.
+description: Extract and apply transferable writing conventions from designated style references, and rehearse reporting documents or presentations from the audience perspective before delivery. Use for reference-guided drafting or revision and for reporting documents or PPTs even without a writing reference; a factual source alone does not activate this skill.
 ---
 
 # Reference-Guided Writing
@@ -38,6 +38,17 @@ Use this mode when the user explicitly asks to develop a scheme, method, or desi
 - For any design step that will be reported externally, examine the theory, source evidence, and overall logic before drafting the corresponding prose.
 - Do not merely translate code, workflow steps, or implementation comments into report text. Distinguish theory-supported claims, project-specific inferences, and implementation details.
 - When theory or source support is missing, mark the point as tentative, internal, or out of scope instead of forcing it into the report narrative. [I-03] [I-04]
+
+## Reporting audience rehearsal
+
+For reporting documents and reporting presentations, complete this review after drafting and before handing the work to the user, including when no writing reference is supplied. This is an explicitly approved reusable requirement, not a preference inferred from a reference. [R-01]
+
+1. Draft a word-for-word spoken script suited to the reporting audience. Infer the audience from the task where possible; ask only if the missing context would materially change the report.
+2. Simulate presenting every subsection or slide in order. Check what the listener can understand from the delivered material and explanation, without access to implementation details or conversation history.
+3. Review as that audience and give concrete feedback: unclear terms, missing context, weak transitions, obscured main points, excessive density or detail, unsupported claims, and likely follow-up questions.
+4. Revise the document or slides in response. Repeat the rehearsal for materially changed sections and unresolved substantive problems before delivery.
+
+Use the rehearsal to correct the artifact, not merely to append a review checklist. Preserve required content, evidence boundaries, and the requested scope. Keep the script and simulated feedback internal unless the user requests them; do not insert process commentary into the report or claim that an actual audience reviewed it. [I-01] [I-03] [I-04]
 
 ## Persistence
 

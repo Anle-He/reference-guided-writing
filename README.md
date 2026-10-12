@@ -17,6 +17,7 @@
 - 在多份参考文档发生冲突时，遵循用户指定的优先级；缺乏依据时保留冲突。
 - 仅在用户明确要求或确认后，将临时规范提升为长期复用规范。
 - 持久化前明确具体规范、复用范围和目标位置，并在写入后验证结果。
+- 汇报文档与汇报 PPT 交付前，拟逐字稿并逐小节、逐页模拟讲述，从汇报对象角度反馈后修改；没有写作参考文档时也执行。
 
 ### 仓库内容
 
@@ -67,6 +68,7 @@ It keeps the references' writing conventions separate from their domain content,
 - Follow user-defined priority when references conflict; preserve unresolved conflicts when no basis determines a choice.
 - Promote temporary conventions to reusable guidance only when the user explicitly requests or confirms it.
 - Before persistence, establish the exact convention, reuse scope, and destination, then verify the completed write.
+- Before delivering reporting documents or PPTs, draft a spoken script, rehearse each subsection or slide, review from the audience perspective, and revise. Apply this even without a writing reference.
 
 ### Repository contents
 
