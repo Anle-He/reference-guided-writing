@@ -30,6 +30,15 @@ Use reference documents to guide how the target document is written without trea
 - Do not import subject matter from a document designated only as a writing reference. A document may supply content only when the user also designates it as a content source. [I-01]
 - Do not expand, remove, or alter required content merely to resemble a reference. [I-04]
 
+## Self-contained explanation and evidence
+
+For documents produced with this Skill, make the body sufficient for the intended reader to understand the purpose, key terms, decisions, supporting evidence, and conclusions. This is an explicitly approved reusable requirement. [R-02]
+
+- Assume readers cannot access internal projects, code, data, or documents, and will not open public sources while reading. Explain the relevant role and content of any internal resource mentioned.
+- Put the evidence needed for a key judgment beside that judgment: a short quotation block, definition, actual sample, input/output excerpt, or essential result. Explain how it supports the claim or design choice. Links provide traceability; they do not replace this material.
+- Identify the source and relevant section near the evidence. Distinguish exact quotations, translations, and paraphrases, as well as observed results and proposed choices. Use only authorized content sources. [I-01] [I-03]
+- Include only what the reader needs; keep excerpts and explanations concise. When necessary evidence is unavailable, state the unresolved point rather than inventing support. Preserve the task's scope and delivery requirements. [I-04]
+
 ## Co-design writing mode
 
 Use this mode when the user explicitly asks to develop a scheme, method, or design while drafting the corresponding section of an existing report or structured document.
@@ -44,7 +53,7 @@ Use this mode when the user explicitly asks to develop a scheme, method, or desi
 For reporting documents and reporting presentations, complete this review after drafting and before handing the work to the user, including when no writing reference is supplied. This is an explicitly approved reusable requirement, not a preference inferred from a reference. [R-01]
 
 1. Draft a word-for-word spoken script suited to the reporting audience. Infer the audience from the task where possible; ask only if the missing context would materially change the report.
-2. Simulate presenting every subsection or slide in order. Check what the listener can understand from the delivered material and explanation, without access to implementation details or conversation history.
+2. Simulate presenting every subsection or slide in order. Check what the listener can understand from the delivered material and explanation, without access to implementation details or conversation history. Also inspect the artifact itself assuming the reader opens no links and cannot access internal resources; move essential context and evidence into the body rather than relying on the spoken script to supply them. [R-02]
 3. Review as that audience and give concrete feedback: unclear terms, missing context, weak transitions, obscured main points, excessive density or detail, unsupported claims, and likely follow-up questions.
 4. Revise the document or slides in response. Repeat the rehearsal for materially changed sections and unresolved substantive problems before delivery.
 
