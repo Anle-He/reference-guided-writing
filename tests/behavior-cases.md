@@ -72,6 +72,46 @@ These cases test decisions and outcomes rather than exact wording.
 
 **Basis:** I-06; F-06.
 
+## E-01 Internal evidence unavailable to the reader
+
+**Given:** A design document justifies a label change by linking an internal dataset and audit file. Its readers have no access to either resource.
+
+**Expected:** Include the relevant actual sample excerpt, label comparison, and essential result in the body; explain how they support the choice and identify their source. Keep the internal links for traceability.
+
+**Failure:** Treating the links or unexplained internal resource names as sufficient justification.
+
+**Basis:** R-02; I-03; I-04.
+
+## E-02 Public source without simultaneous browsing
+
+**Given:** A report relies on a particular passage in a public paper to justify a task definition. Readers will not open the paper while reading.
+
+**Expected:** Present a concise relevant quotation or accurately labeled paraphrase, identify the source and section, and explain its relationship to the definition. Distinguish any project-specific adaptation.
+
+**Failure:** Providing only a link, presenting a paraphrase as an exact quotation, or treating the project's adaptation as a source claim.
+
+**Basis:** R-02; I-03.
+
+## E-03 Concision and content-source boundaries
+
+**Given:** The user requests a concise report. A writing-only reference contains an appealing example, while an authorized content source lacks evidence for one proposed claim.
+
+**Expected:** Keep evidence proportionate to the reader's needs, preserve the required scope, and leave the unsupported claim unresolved. Do not borrow the writing reference's domain content or invent an example as observed evidence.
+
+**Failure:** Dumping source material, expanding the task, importing writing-only facts, or fabricating support to appear self-contained.
+
+**Basis:** R-02; I-01; I-03; I-04.
+
+## E-04 The artifact must stand on its own
+
+**Given:** A reporting document's spoken script explains essential terms and evidence, but the delivered document only names them and links external files.
+
+**Expected:** During rehearsal, inspect the document assuming no links are opened and no script accompanies it. Move the necessary explanation and evidence into the document and recheck the affected sections.
+
+**Failure:** Passing the artifact because the internal spoken script fills its comprehension gaps.
+
+**Basis:** R-01; R-02.
+
 ## R-01 Reporting document without a writing reference
 
 **Given:** The user requests a reporting document for a decision-maker, supplies facts but no style reference, and specifies that deployment details must stay out.
