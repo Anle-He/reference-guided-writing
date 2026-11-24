@@ -34,6 +34,7 @@ Use reference documents to guide how the target document is written without trea
 
 For documents produced with this Skill, make the body sufficient for the intended reader to understand the purpose, key terms, decisions, supporting evidence, and conclusions. This is an explicitly approved reusable requirement. [R-02]
 
+- Review whether the body stands on its own separately from whether its register suits the audience and genre. In technical and academic prose, retain useful terminology and precise distinctions, define key terms as needed, and make the premises, logical connections, and links between evidence and conclusions explicit. [R-02] [I-03]
 - Assume readers cannot access internal projects, code, data, or documents, and will not open public sources while reading. Explain the relevant role and content of any internal resource mentioned.
 - Put the evidence needed for a key judgment beside that judgment: a short quotation block, definition, actual sample, input/output excerpt, or essential result. Explain how it supports the claim or design choice. Links provide traceability; they do not replace this material.
 - Identify the source and relevant section near the evidence. Distinguish exact quotations, translations, and paraphrases, as well as observed results and proposed choices. Use only authorized content sources. [I-01] [I-03]
